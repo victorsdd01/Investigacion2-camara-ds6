@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo1"
+    tools:context=".Login">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/logo"/>
+
+            <TextView android:text="Correo:"
+                android:id="@+id/TextView01"
+                android:layout_gravity="center"
+                android:layout_width="280dp"
+                android:layout_marginTop="50dp"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"/>
+
+            <EditText
+                android:id="@+id/txtUser"
+                android:layout_gravity="center"
+                android:layout_width="280dp"
+                android:background="@drawable/rectangle1"
+                android:layout_height="40dp"
+                android:textColor="#000000"/>
+
+            <TextView android:text="Contraseña:"
+                android:id="@+id/TextView02"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+
+                android:layout_width="280dp"
+                android:layout_height="wrap_content"
+                android:textColor="#ffffff"/>
+
+            <EditText
+                android:id="@+id/txtPass"
+                android:layout_width="280dp"
+                android:inputType="textPassword"
+                android:layout_gravity="center"
+                android:background="@drawable/rectangle1"
+                android:layout_height="40dp"
+                android:textColor="#000000"/>
+
+            <Button
+                android:id="@+id/btnIniciar"
+                android:layout_width="180dp"
+                android:layout_height="40dp"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/rectangle1"
+                android:text="Iniciar Sesión"
+                android:textColor="#000000"
+                android:onClick="Ingresar"/>
+
+            <TextView android:id="@+id/Registrar"
+                android:text="¿No tienes cuenta? Registrate"
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:text="version 1.0"
+                android:layout_marginTop="50dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+
+                android:textColor="#ffffff"
+                />
+            <TextView
+                android:text="CAMAPP © 2020 - All rights reserved"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#ffffff"
+                />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

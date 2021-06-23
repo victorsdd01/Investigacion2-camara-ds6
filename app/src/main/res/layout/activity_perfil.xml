@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".Perfil">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:background="@drawable/fondo2"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+
+        android:layout_width="200dip"
+        android:layout_height="200dip"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dip"
+        android:id="@+id/imagen"
+        />
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:text="Edwin Lopez"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/Correo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="380dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffffff"
+        android:text="edwin@utp.ac.pa"
+        android:textSize="25dp" />
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="450dp"
+            android:layout_marginTop="445dip"
+            android:background="@drawable/fondo3" />
+
+
+    <TextView
+        android:id="@+id/F"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="480dip"
+        android:layout_marginEnd="91dp"
+        android:layout_marginRight="91dp"
+        android:layout_toStartOf="@+id/followers"
+        android:layout_toLeftOf="@+id/followers"
+        android:textColor="#000000"
+        android:text="170"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/followers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="480dip"
+        android:textColor="#000000"
+        android:text="70"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/following"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/followers"
+        android:layout_marginTop="480dip"
+        android:textColor="#000000"
+        android:layout_marginLeft="91dp"
+
+        android:text="  80"
+        android:textSize="30dp" />
+
+
+    <TextView
+        android:id="@+id/texttF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="110dp"
+        android:layout_marginTop="520dp"
+        android:layout_toLeftOf="@+id/followers"
+        android:textColor="#000000"
+        android:text="F's"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textFollowers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:layout_marginTop="520dp"
+        android:text="Followers"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textFollowing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/followers"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="90dp"
+        android:textColor="#000000"
+        android:text="Following"
+        android:textSize="15dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="590dip"
+        android:text="Cerrar Sesion"
+        android:textColor="#000000"
+        android:textSize="15dp"
+        android:background="@drawable/rectangle3"
+        android:layout_centerHorizontal="true"
+        android:onClick="Salir"/>
+
+</RelativeLayout>
